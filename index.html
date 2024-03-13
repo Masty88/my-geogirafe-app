@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css" />
+    <title>Uzu-x-Gg</title>
+  </head>
+    <body>
+      <header>
+        <girafe-theme-select></girafe-theme-select>
+        <girafe-search id="search"></girafe-search>
+        <div id="buttonbar">
+          <girafe-globe-select></girafe-globe-select>
+        </div>
+      </header>
+      <div id="content">
+        <div id="content-map">
+          <section>
+          <girafe-tree-view dock="left"></girafe-tree-view>
+          <girafe-map></girafe-map>
+          </section>
+        </div>
+      </div>
+      <script type="module" src="/src/main.ts"></script>
+    </body>
+</html>
